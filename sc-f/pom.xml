@@ -20,7 +20,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
+        <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>  <!-- Finchley.RELEASE对springboot2.0支持，Greenwich.RELEASE对springboot2.1支持 -->
     </properties>
 
     <modules>
@@ -28,6 +28,7 @@
         <module>service-hi</module>
         <module>service-ribbon</module>
         <module>service-feign</module>
+        <module>service-zuul</module>
     </modules>
 
     <dependencies>
